@@ -6,37 +6,41 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <style>
-        header{
-            background-color: rgba(63, 39, 39, 0.345);
-            width: 800px;
-            height: 100px;
-        }
-        .container{
-        display: flex;
-        justify-content: center;
-        gap:50px;
+    nav{
+        background-color:rgb(0, 0, 0);
 
         }
+    nav ul{
+        background-color:rgb(116, 111, 115);
+    }
+    nav a{
+        background-color:rgb(255, 184, 183);
+    }
+    .centralizar{
+       display: flex;
+       justify-content: center;
+           padding: 0;
+           gap: 20px;
+      }
     </style>
 </head>
 <body>
     <header>
     <nav>
-            <div class="container">
-            <div class="link"><a href="#sobre">Sobre mim</a></div>
-            <div class="link"><a href="#formacao">Formação</a></div>
-            <div class="link"><a href="#portfolio">Portfólio</a></div>
-            <div class="link"><a href="#contato">Contato</a></div>
-            </div>
-    </nav>
-    </header>
-
-        <section id="sobre">
-        <h1>SOOBRE MIM</h1>
-        <p>meu nome: leandro luiz</p>
-        <p>2a, do cuso tecnico de desenvolvimento de sistemas</p>
-        <p>gosto de jogar volei, esportes de lutas e muito mais...</p>
-        </section>
-    <script src="script.js"></script>
-    </body>
+        <ul class="centralizar">
+            <div class="conteiner">
+            <p><div class="link"><a href="#portfolio">Portfólio</a></div></p>
+        </div>
+    </ul>
+</nav>
+</header>
+        <section id="portfolio">
+        <h2>Portfólio</h2>
+        <p>Confira alguns dos meus trabalhos:</p>
+    <ul>
+    <li><a href="https://github.com/sleandr/eita/blob/main/teste/batata.html" target="_blank">Meu GitHub</a></li>
+    </ul>
+    </section>
+<script src="script.js"></script>
+</body>
 </html>
